@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1340px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 55px 0;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-list-item a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #263238;
+}
+
+.header-inner-right a {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+  padding: 17px 57px;
+  border: 2px solid #263238;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.learn-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.learn-left-title {
+  width: 64px;
+  font-weight: 500px;
+}
+.learn-paragraph {
+  width: 380px;
+  font-weight: 400px;
+  color: #8f95a5;
+  margin-bottom: 51px;
+}
+.learn-left-btn a {
+  background-color: #263238;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  padding: 17px 57px;
+  border: 2px solid#263238;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.skills-inner {
+  display: flex;
+}
+.skill-title {
+  text-align: center;
+  font-size: 38px;
+}
+/* .skills-right {
+  display: flex;
+} */
+.skills-left {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  padding: 15px 10px;
+  margin: 5px;
+  width: 435px;
+  height: 894px;
+}
+.skills-left-paragraph {
+  margin-bottom: 36px;
+  width: 380px;
+  font-weight: 400px;
+  color: #8f95a5;
+  margin-bottom: 51px;
+}
+.learn-skills-left-btn a {
+  background-color: #263238;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  padding: 17px 53px;
+  border: 2px solid#263238;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.skill-right-top-1 {
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  width: 434px;
+  height: 581px;
+  margin: 5px;
+  padding: 15px 10px;
+}
+.img-writer {
+  width: 293px;
+  height: 293px;
+}
+.skills-right-paragraph {
+  margin-bottom: 36px;
+  width: 380px;
+  font-weight: 400px;
+  color: #8f95a5;
+  margin-bottom: 51px;
+}
+.skill-right-top-2 {
+  display: block;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  width: 434px;
+  height: 581px;
+  margin: 5px;
+  padding: 15px 10px;
+}
+.img-bookshelves {
+  width: 380px;
+  height: 293px;
+}
+.skills-right-bottom {
+  display: flex;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 15px 10px;
+  width: 880px;
+  height: 301px;
+}
+.img-podcast {
+  width: 382px;
+  height: 255px;
+}
+.about-us-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.about-us-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0 0 23px 0;
+}
+.about-us-left {
+  width: 635px;
+}
+.paragraph-left-inner {
+  width: 635px;
+  font-weight: 600px;
+  color: #8f95a5;
+  margin: 0 0 38px 0;
+}
+.ul-about-us {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style-type: none;
+}
+.paragraph-li-about-us {
+  margin: 0;
+  padding: 0;
+  color: #8f95a5;
+}
+.h3-li-about-us {
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+}
+.pricing-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-1 {
+  width: 360px;
+}
+.card-1-text {
+  height: 90px;
+  font-weight: 600px;
+  color: #8f95a5;
+}
+.card-1-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #eeeeee;
+  gap: 10px;
+}
+.card-bottom-text {
+  font-weight: 600px;
+  color: #8f95a5;
+}
+.contact {
+  margin-block: 160px;
+}
+.contact-inner {
+  display: flex;
+  justify-content: space-around;
+}
+.contact-title {
+  font-size: 48px;
+  font-style: SemiBold;
+}
+.contact-text {
+  height: 90px;
+  font-weight: 600px;
+  color: #8f95a5;
+}
+.email-enter {
+  width: 450px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.email-subscribe {
+  color: white;
+  text-decoration: none;
+  padding: 29px 82px;
+  border-radius: 5px;
+  background-color: #263238;
+}
