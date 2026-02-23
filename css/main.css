@@ -200,6 +200,9 @@ li {
   justify-content: space-between;
   align-items: center;
 }
+.pricing-title{
+  text-align: center;
+}
 .card-1 {
   width: 360px;
 }
